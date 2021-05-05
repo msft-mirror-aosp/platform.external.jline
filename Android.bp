@@ -36,6 +36,11 @@ license {
 }
 
 java_import_host {
+  name: "jline",
+  jars: [ "jline-3.13.3.jar" ],
+}
+
+java_import_host {
   name: "jline-1.0",
   jars: [ "jline-1.0.jar" ],
 }
